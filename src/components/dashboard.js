@@ -24,9 +24,9 @@ const trafficData = [
 ];
 
 const velocityItems = [
-  { name: "Chanel Perfume", price: "1,45,000", sales: 842, stock: 12, growth: "+12%", status: 'High' },
+  { name: "Chanel Perfume", price: "14,500", sales: 842, stock: 12, growth: "+12%", status: 'High' },
   { name: "Gucci Perfume", price: "24,500", sales: 612, stock: 45, growth: "+24%", status: 'Stable' },
-  { name: "Reef 19", price: "1,25,000", sales: 142, stock: 4, growth: "+8%", status: 'Critical' },
+  { name: "Reef 19", price: "5000", sales: 142, stock: 4, growth: "+8%", status: 'Critical' },
 ];
 
 const districtPulse = [
