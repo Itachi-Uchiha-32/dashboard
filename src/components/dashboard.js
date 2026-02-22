@@ -40,7 +40,7 @@ export default function ScorpioDashboard() {
   return (
     <div className="flex min-h-screen p-4 lg:p-6 gap-6 bg-[#08080A] text-zinc-400 font-sans selection:bg-indigo-500/30">
       
-      {/* --- SIDEBAR RAIL --- */}
+      {/* --- SIDEBAR --- */}
       <aside className="w-20 lg:w-72 bg-white/[0.02] backdrop-blur-3xl border border-white/5 rounded-[2.5rem] flex flex-col p-6 sticky top-6 h-[calc(100vh-3rem)] shrink-0 transition-all">
         <div className="flex items-center gap-4 mb-14 px-2">
           <div className="w-12 h-12 bg-indigo-600 rounded-2xl flex items-center justify-center shadow-lg shadow-indigo-600/30 shrink-0">
@@ -73,7 +73,7 @@ export default function ScorpioDashboard() {
         </nav>
       </aside>
 
-      {/* --- MAIN CONTENT STAGE --- */}
+      {/* --- MAIN CONTENT --- */}
       <main className="flex-1 flex flex-col gap-6 max-w-[1600px] mx-auto w-full">
         
         {/* TOP HUD */}
@@ -97,7 +97,7 @@ export default function ScorpioDashboard() {
           </div>
         </header>
 
-        {/* TIER 1: THE REVENUE ENGINE */}
+        {/* REVENUE  */}
         <div className="grid grid-cols-12 gap-6">
           <div className="col-span-12 lg:col-span-8 bg-white/[0.02] border border-white/5 rounded-[3.5rem] p-10 relative overflow-hidden group">
             <div className="absolute -right-20 -top-20 w-96 h-96 bg-indigo-600/10 blur-[120px] rounded-full group-hover:bg-indigo-600/20 transition-all duration-1000" />
@@ -169,7 +169,7 @@ export default function ScorpioDashboard() {
           </div>
         </div>
 
-        {/* TIER 2: OPERATIONAL METRICS */}
+        {/* OPERATIONAL METRICS */}
         <div className="grid grid-cols-4 gap-6">
           {[
             { label: 'Total Orders', val: '842', icon: ShoppingCart, color: 'text-indigo-400', pct: '+12%' },
@@ -192,7 +192,7 @@ export default function ScorpioDashboard() {
           ))}
         </div>
 
-        {/* TIER 3: INVENTORY & GEOGRAPHY */}
+        {/* INVENTORY  */}
         <div className="grid grid-cols-12 gap-6 pb-6">
           
           {/* TOP SELLING INVENTORY */}
